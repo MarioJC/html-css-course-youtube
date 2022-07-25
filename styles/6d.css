@@ -1,0 +1,24 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+em {
+  font-style: normal;
+  text-decoration: underline;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 24px;
+}
