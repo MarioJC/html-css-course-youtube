@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Grid Practice</title>
+</head>
+
+<body style="padding-bottom: 1000px;">
+  <div style="display:grid;
+                grid-template-columns: 50px 1fr 50px;
+                grid-template-rows: 50px 50px;
+                margin-bottom: 20px;
+                padding: 10px;">
+    <div class="div-a" style="background-color: lightblue">div 1</div>
+    <div style="background-color: lightpink">div 2</div>
+    <div style="background-color: lightblue">div 3</div>
+    <div style="background-color: lightpink">div 4</div>
+    <div style="background-color: lightblue">div 5</div>
+    <div style="background-color: lightpink">div 6</div>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 100px 100px;">
+    <div style="background-color: lightblue">div 1</div>
+    <div style="background-color: lightpink">div 2<p>grid layout</p>
+    </div>
+  </div>
+
+  <div style="margin-top: 30px; display: grid; grid-template-columns: 100px 100px 200px;">
+    <div style="background-color: lightblue">100px</div>
+    <div style="background-color: lightpink">100px</div>
+    <div style="background-color: lightgreen">200px</div>
+    <div style="background-color: lightsalmon">100px</div>
+  </div>
+
+  <div style="margin-top: 30px; display: grid; grid-template-columns: 100px 1fr;">
+    <div style="background-color: lightblue">100px</div>
+    <div style="background-color: lightpink">1fr</div>
+  </div>
+
+  <div style="margin-top: 30px; display: grid; grid-template-columns: 100px 1fr 2fr;">
+    <div style="background-color: lightblue">100px</div>
+    <div style="background-color: lightpink">1fr</div>
+    <div style="background-color: lightgreen">2fr</div>
+  </div>
+
+  <div style="
+    margin-top: 30px; 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+    padding: 10px;">
+    <div style="background-color: lightpink; height: 200px">1fr</div>
+    <div style="background-color: lightgreen">1fr</div>
+    <div style="background-color: lightblue">1fr</div>
+    <div style="background-color: lightgreen">1fr</div>
+    <div style="background-color: lightblue">1fr</div>
+    <div style="background-color: lightpink; height: 200px">1fr</div>
+  </div>
+</body>
+
+</html>
