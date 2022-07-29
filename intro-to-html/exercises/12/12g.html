@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Exercise 12e</title>
+  <style>
+    .flexible-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .cat-info {
+      flex: 1;
+      padding-left: 20px;
+    }
+
+    .name {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+    }
+
+    .description, .popularity {
+      color: grey;
+    }
+
+    .description {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .popularity {
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .follow-button {
+      background-color: rgb(108, 142, 255);
+      color: white;
+      border-radius: 5px;
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div style="border: 1px solid grey; border-radius: 5px;">
+    <!-- Oliver -->
+    <div class="flexible-row">
+      <div><img src="../images/cat1.jpg" alt=""></div>
+      <div class="cat-info">
+        <div class="name">Oliver</div>
+        <div class="description">The Cat</div>
+        <div class="popularity">Popular</div>
+      </div>
+      <div class="follow-button">Follow</div>
+    </div>
+    <!-- Mimi -->
+    <div class="flexible-row">
+      <div><img src="../images/cat2.jpg" alt=""></div>
+      <div class="cat-info">
+        <div class="name">Mimi</div>
+        <div class="description">Sleepy Cat</div>
+        <div class="popularity">Popular</div>
+      </div>
+      <div class="follow-button">Follow</div>
+    </div>
+    <!-- Rex -->
+    <div class="flexible-row">
+      <div><img src="../images/dog.jpg" alt=""></div>
+      <div class="cat-info">
+        <div class="name">Rex</div>
+        <div class="description">Happy Bulldog</div>
+        <div class="popularity">Popular</div>
+      </div>
+      <div class="follow-button">Follow</div>
+    </div>
+  </div>
+</body>
+
+</html>
