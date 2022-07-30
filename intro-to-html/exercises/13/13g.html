@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title></title>
+    <style>
+      .outer-flex {
+        display: flex;
+      }
+
+      .col1 {
+        width: 100px;
+      }
+
+      .profile-pic {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+
+      .col2 {
+        flex: 1;
+      }
+
+      .inner-flex {
+        display: flex;
+        border: 1px solid rgb(222, 217, 217);
+        border-radius: 10px;
+      }
+
+      .inner-left {
+        width: 100px;
+        border-radius: 10px 0 0 10px;
+        background-color: rgb(222, 217, 217);
+        margin-left:-1px;
+        margin-bottom:-1px;
+      }
+
+      .inner-right {
+        flex: 1;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer-flex">
+      <div class="col1"><img class="profile-pic" src="../images/cat1.jpg" alt=""></div>
+      
+      <div class="col2">
+        <div style="display:flex; margin-bottom:5px;">
+          <div style="font-weight:bold; margin-right:5px;">supersimple.dev</div>
+          <div style="color:grey;">@SuperSimpleDev</div>
+        </div>
+        <div style="margin-bottom: 10px;">What is backend web development? A complete overview. New video is up!</div>
+        <div class="inner-flex">
+          <div class="inner-left"></div>
+          <div class="inner-right">
+            <div style="color:grey; margin-bottom:5px;">youtube.com</div>
+            <div>Backend web development - a complete overview (2021)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

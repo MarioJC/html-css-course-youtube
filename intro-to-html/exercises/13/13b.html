@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title></title>
+  <style>
+    .flexbox {
+      display: flex;
+      height: 50px;
+    }
+
+    .column1 {
+      width: 100px; /* width within .flexbox */
+      background-color: lightpink;
+    }
+
+    .column2 {
+      width: 200px; /* width within .flexbox */
+      background-color: lightblue;
+    }
+
+    .nested-flexbox {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .inverse-colors {
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="flexbox">
+    <div class="column1"></div>
+    <div class="column2">
+      <div class="nested-flexbox">
+        <div>row1</div>
+      </div>
+      <div class="nested-flexbox">
+        <div class="inverse-colors">row2</div>
+        <div class="inverse-colors">row2</div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
