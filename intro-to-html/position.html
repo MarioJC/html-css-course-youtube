@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>CSS Position</title>
+</head>
+
+<body style="
+  height: 3000px;
+  padding-top: 60px;
+  padding-left: 60px;
+">
+  <!-- header -->
+  <div style="
+    background-color: red;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+  ">header</div>
+
+  <!-- sidebar -->
+  <div style="
+    background-color: green;
+    color: white;
+    position: fixed;
+    width: 50px;
+    left: 0;
+    top: 50px;
+    bottom: 0;
+  ">
+    sidebar
+  </div>
+
+  <!-- div 1 -->
+  <div style="
+    background-color: lightblue;
+    height: 200px;
+    width: 200px;
+    position: static; /* optional (static=default value) */
+  ">div 1</div>
+
+  <!-- div 2 -->
+  <div style="
+    background-color: lightpink;
+    height: 200px;
+    width: 200px;
+  ">div 2</div>
+</body>
+
+</html>

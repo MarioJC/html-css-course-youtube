@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Exercise 14a</title>
+  <style>
+    .sidebar {
+      background-color: green;
+      color: white;
+      position: fixed;
+      width: 100px;
+      right: 0;
+      top: 0;
+      bottom: 0;
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.8);
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal {
+      background-color: white;
+      border-radius: 5px;
+      padding-left: 20px;
+      padding-bottom: 20px;
+      padding-right: 20px;
+      width: 300px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="sidebar">
+    right sidebar
+  </div>
+
+  <!-- overlay -->
+  <div class="overlay">
+    <!-- modal -->
+    <div class="modal">
+      <h2>Modal Title</h2>
+      <p>This is a modal</p>
+      <button>Close</button>
+    </div>
+  </div>
+</body>
+
+</html>

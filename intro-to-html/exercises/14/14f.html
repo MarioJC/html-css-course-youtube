@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Exercise 14f</title>
+    <style>
+      body {
+        padding-left: 220px;
+      }
+      .sidebar1 {
+        background-color: rgb(35, 35, 35);
+        position: fixed;
+        top:0;
+        bottom:0;
+        left:0;
+        width:50px;
+        padding: 10px;
+
+        display:flex;
+        flex-direction: column;
+      }
+
+      img {
+        border-radius: 50%;
+        object-fit: cover;
+
+        width: 50px;
+        aspect-ratio: 1;
+        margin-bottom: 10px;
+      }
+
+      .sidebar2 {
+        background-color: rgb(52, 52, 52);
+        position: fixed;
+        top:0;
+        bottom:0;
+        left:70px;
+        width:120px;
+        padding: 10px;
+
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 2em;
+
+        display: flex;
+        flex-direction: column;
+      }
+
+      .sidebar2-header {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .topic {
+        color:rgb(165, 164, 164)
+      }
+
+      #lipsum {
+        text-align: justify;
+        padding-right: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar1">
+      <img src="../images/cat1.jpg" alt="">
+      <img src="../images/cat2.jpg" alt="">
+      <img src="../images/dog.jpg" alt="">
+    </div>
+    <div class="sidebar2">
+      <div class="sidebar2-header">
+        <div style="color: white; font-weight: bold">INFO</div>
+        <div style="color: rgb(165, 164, 164); font-size: 24px">+</div>
+      </div>
+      <div class="topic"># new-videos</div>
+      <div class="topic"># updates</div>
+      <div class="topic"># faq</div>
+    </div>
+    <p id="lipsum">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis eleifend tristique. Quisque tempor varius urna. Etiam vehicula lorem a dolor euismod tincidunt. Sed elementum ipsum felis, sed egestas sem aliquet eget. Aenean est tellus, sodales ac mi nec, rutrum accumsan ex. In finibus pulvinar mauris. Nam molestie viverra nulla vitae accumsan. Aliquam erat volutpat. Phasellus quis scelerisque risus. Sed neque eros, tincidunt non varius ac, imperdiet quis magna. Sed lobortis mauris ac ligula tincidunt tincidunt. Donec eget lacus ut ex feugiat posuere. Curabitur id sapien nec elit commodo commodo ac sed magna. Etiam augue est, tincidunt sed suscipit ut, molestie consectetur leo. Donec nec tellus enim. Duis sit amet ex at dui maximus pretium.
+
+Sed dapibus dolor a dolor varius feugiat. Phasellus dictum magna est, et mollis lectus fringilla quis. Curabitur sollicitudin turpis quis enim cursus ullamcorper quis id eros. In ornare dignissim blandit. Phasellus in arcu fringilla, tincidunt risus a, placerat lacus. Nulla mollis tortor quis auctor varius. Duis id lectus et arcu elementum volutpat. Integer venenatis imperdiet tellus, nec maximus odio placerat a. Phasellus sit amet ornare erat, in pretium nunc. Sed magna orci, pulvinar at mollis non, vestibulum a mi.
+
+Cras quis neque eget est vestibulum ullamcorper ac scelerisque sem. Fusce eu rhoncus leo. Fusce gravida, nulla eget facilisis porta, turpis nisl suscipit diam, id commodo ante massa sit amet felis. Fusce a mi a quam aliquam sagittis. Nunc eros erat, tempus id viverra hendrerit, condimentum quis mi. Nunc mollis ipsum vitae nisl interdum mattis. Mauris elit ligula, tempus in fringilla nec, eleifend sed sem. In feugiat ut ipsum tempor suscipit. Quisque rhoncus hendrerit mauris nec imperdiet. Proin ligula ante, viverra non ultrices sagittis, tincidunt et justo. Nullam lobortis enim dignissim elit pharetra, non laoreet arcu bibendum.
+
+Vestibulum velit dolor, dapibus eget pretium non, elementum ut velit. Vestibulum id pretium nisi. Aenean eu egestas tortor, a ultrices augue. Integer id nibh id nibh ultricies vehicula. Sed ac turpis in quam tincidunt lacinia. Mauris vel volutpat enim. Nulla a est magna. Pellentesque iaculis, leo vitae eleifend sodales, nunc dolor aliquet diam, in tristique massa felis at urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc eu turpis mi. Mauris volutpat imperdiet augue quis congue. Morbi vitae tortor at nisl dignissim scelerisque.
+
+Praesent mollis a lorem et pulvinar. Morbi sollicitudin, lorem ac luctus vehicula, ex eros feugiat ligula, in sodales dolor tortor sit amet metus. Pellentesque sed tempus libero. Suspendisse et ante non nisi commodo semper. Proin nisl dolor, tincidunt et commodo a, fringilla non arcu. Aenean viverra urna eu felis sollicitudin varius. Nam facilisis vitae enim nec aliquet. Proin tristique mauris quis pretium tristique. Sed eget posuere est, at viverra turpis. Nullam aliquam a purus ut molestie. Aliquam et leo ac enim imperdiet condimentum et lobortis velit. Maecenas eget eros dolor. Curabitur ornare nec massa vitae rutrum. Etiam vel tellus nec dolor sodales finibus ut quis ligula.
+    </p>
+  </body>
+</html>
